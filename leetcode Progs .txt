@@ -12,7 +12,7 @@ Array:
 10. Find All Numbers Disappeared in an Array
 
 String:
-1. Reverse String
+1. Reverse String - done, temp or direct swap in string. 
 2. Valid Anagram
 3. Longest Palindromic Substring
 4. Group Anagrams
