@@ -26,7 +26,7 @@ String:
 
 Linked List:
 1. Reverse Linked List - basic LL. Pointer arithmetic. 
-2. Merge Two Sorted Lists
+2. Merge Two Sorted Lists - pick val and compare, add iteratively till list exhausts. while check for nonetype directly. 
 
 3. Add Two Numbers
 4. Remove Nth Node From End of List
