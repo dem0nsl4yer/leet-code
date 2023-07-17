@@ -13,9 +13,9 @@ Array:
 
 String:
 1. Reverse String - done, temp or direct swap in string. 
-2. Valid Anagram
-3. Longest Palindromic Substring
-4. Group Anagrams
+2. Valid Anagram - 
+3. Longest Palindromic Substring - done. DP - divide into odd/evem palin and solve/ palindromic property/just saw/ 
+4. Group Anagrams - sorted and check. Count and check for every element. 
 5. Valid Parentheses
 6. Longest Common Prefix
 7. String to Integer (atoi)
