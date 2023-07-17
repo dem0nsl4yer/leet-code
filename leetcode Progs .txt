@@ -25,8 +25,9 @@ String:
 10. ZigZag Conversion
 
 Linked List:
-1. Reverse Linked List
+1. Reverse Linked List - basic LL. Pointer arithmetic. 
 2. Merge Two Sorted Lists
+
 3. Add Two Numbers
 4. Remove Nth Node From End of List
 5. Intersection of Two Linked Lists
