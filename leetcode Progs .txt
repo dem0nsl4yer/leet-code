@@ -18,7 +18,8 @@ String:
 4. Group Anagrams - sorted and check. Count and check for every element. 
 5. Valid Parentheses - done. Had to create a residual array as memory cashe. And updated it whenever had to compare for residuals. 
 6. Longest Common Prefix - finding shortest term, then looking out for prefix. 
-7. String to Integer (atoi)
+7. String to Integer (atoi)- plain labor. data parsing - char by char. string adding in python with '+' sign.
+
 8. Palindrome Permutation
 9. Longest Substring Without Repeating Characters
 10. ZigZag Conversion
