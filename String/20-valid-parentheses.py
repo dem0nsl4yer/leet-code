@@ -17,3 +17,23 @@ class Solution:
         if len(res) >0:
             return False 
         return True 
+    
+
+
+    ########### Shorter version 
+
+
+    class Solution:
+    def isValid(self, s: str) -> bool:
+        opening_brackets = {'{', '(', '['}
+        matching_brackets = {'}': '{', ')': '(', ']': '['}
+        stack = []
+        
+        for char in s:
+            if char in opening_brackets:
+                stack.append(char)
+            elif char in matching_brackets:
+                if not stack or stack.pop() != matching_brackets[char]:
+                    return False
+                    
+        return len(stack) == 0
