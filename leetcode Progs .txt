@@ -28,7 +28,8 @@ Linked List:
 1. Reverse Linked List - basic LL. Pointer arithmetic. 
 2. Merge Two Sorted Lists - pick val and compare, add iteratively till list exhausts. while check for nonetype directly. 
 
-3. Add Two Numbers
+3. Add Two Numbers - using qualifier inside the loop. Using Nodemaker to plug nodes with math, rather than adding val. Dealing with residuals using % and //. 
+
 4. Remove Nth Node From End of List
 5. Intersection of Two Linked Lists
 6. Linked List Cycle
