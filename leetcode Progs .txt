@@ -27,7 +27,6 @@ String:
 Linked List:
 1. Reverse Linked List - basic LL. Pointer arithmetic. 
 2. Merge Two Sorted Lists - pick val and compare, add iteratively till list exhausts. while check for nonetype directly. 
-
 3. Add Two Numbers - using qualifier inside the loop. Using Nodemaker to plug nodes with math, rather than adding val. Dealing with residuals using % and //. 
 
 4. Remove Nth Node From End of List
@@ -39,7 +38,7 @@ Linked List:
 10. LRU Cache
 
 Binary Tree:
-1. Maximum Depth of Binary Tree
+1. Maximum Depth of Binary Tree - depth traversal - BFS. 
 2. Invert Binary Tree
 3. Symmetric Tree
 4. Construct Binary Tree from Preorder and Inorder Traversal
