@@ -42,8 +42,9 @@ Binary Tree:
 2. Invert Binary Tree - recursion and flip. 
 3. Symmetric Tree - interesting problem. split the key problem into recursion. 
 4. Construct Binary Tree from Preorder and Inorder Traversal - recursion. Iterative splitting : Preorder - root-left-right // Inorder Left-root-right. 
+5. Validate Binary Search Tree stuck in recursion??? unable to solve 74/82 testcases passed.  - recursion provides best solution. divide and conquer. 
+- for a node how to define the constraint. then divide into left and right constraint. 
 
-5. Validate Binary Search Tree
 6. Lowest Common Ancestor of a Binary Tree
 7. Binary Tree Level Order Traversal
 8. Path Sum

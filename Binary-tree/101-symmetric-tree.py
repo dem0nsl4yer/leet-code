@@ -17,3 +17,6 @@ class Solution:
                 return False
             return (left.val == right.val) and checksymmetry(left.right, right.left) and checksymmetry(right.right, left.left)
         return checksymmetry(l, r)
+    
+
+    
