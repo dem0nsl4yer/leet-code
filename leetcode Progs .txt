@@ -53,7 +53,8 @@ Binary Tree:
 
 Dynamic Programming:
 1. Climbing Stairs - listing and memoization. trick is to first deploy the recursive stepping. 
-2. Coin Change
+2. Coin Change - Not solved yet. 
+
 3. Longest Increasing Subsequence
 4. Maximum Subarray
 5. Unique Paths
