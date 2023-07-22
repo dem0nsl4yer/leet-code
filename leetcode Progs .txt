@@ -52,7 +52,7 @@ Binary Tree:
 10. Flatten Binary Tree to Linked List
 
 Dynamic Programming:
-1. Climbing Stairs
+1. Climbing Stairs - listing and memoization. trick is to first deploy the recursive stepping. 
 2. Coin Change
 3. Longest Increasing Subsequence
 4. Maximum Subarray
@@ -100,7 +100,8 @@ Sorting and Searching:
 10. Find Minimum in Rotated Sorted Array
 
 Stack and Queue:
-1. Valid Parentheses
+1. Valid Parentheses - done. 
+
 2. Min Stack
 3. Implement Queue using Stacks
 4. Evaluate Reverse Polish Notation
@@ -124,3 +125,12 @@ Greedy:
 10. Meeting Rooms II
 
  #programming #change #coding
+ 
+ 
+ class Solution:
+    def climbStairs(self, n: int) -> int:
+        
+        dp = [1] * (n + 1)
+        for i in range(2, n + 1):
+            dp[i] = dp[i - 1] + dp[i - 2]
+        return dp[n]
