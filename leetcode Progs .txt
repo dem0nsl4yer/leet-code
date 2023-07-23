@@ -57,8 +57,9 @@ Dynamic Programming:
 
 3. Longest Increasing Subsequence
 4. Maximum Subarray
-5. Unique Paths
+5. Unique Paths - easy recursion. 
 6. Edit Distance
+
 7. House Robber - solved. Iterative comparisons. 
 8. Longest Palindromic Subsequence
 9. Word Break
