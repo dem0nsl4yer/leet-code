@@ -58,12 +58,12 @@ Dynamic Programming:
 3. Longest Increasing Subsequence
 4. Maximum Subarray
 5. Unique Paths - easy recursion. 
-6. Edit Distance
+6. Edit Distance - ??
 
 7. House Robber - solved. Iterative comparisons. 
 8. Longest Palindromic Subsequence
-9. Word Break
-10. Best Time to Buy and Sell Stock
+9. Word Break - unable to solve?? 
+10. Best Time to Buy and Sell Stock - done. 
 
 Graph:
 1. Course Schedule
@@ -127,12 +127,4 @@ Greedy:
 10. Meeting Rooms II
 
  #programming #change #coding
- 
- 
- class Solution:
-    def climbStairs(self, n: int) -> int:
-        
-        dp = [1] * (n + 1)
-        for i in range(2, n + 1):
-            dp[i] = dp[i - 1] + dp[i - 2]
-        return dp[n]
+
