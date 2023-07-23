@@ -59,7 +59,7 @@ Dynamic Programming:
 4. Maximum Subarray
 5. Unique Paths
 6. Edit Distance
-7. House Robber
+7. House Robber - solved. Iterative comparisons. 
 8. Longest Palindromic Subsequence
 9. Word Break
 10. Best Time to Buy and Sell Stock
