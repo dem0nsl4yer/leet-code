@@ -11,6 +11,8 @@ Array:
 9. Missing Number
 10. Find All Numbers Disappeared in an Array
 
+After twp pointer, prefix sum is another method to reduce time complexity. 
+
 String:
 1. Reverse String - done, temp or direct swap in string. 
 2. Valid Anagram - 
@@ -23,6 +25,7 @@ String:
 8. Palindrome Permutation
 9. Longest Substring Without Repeating Characters
 10. ZigZag Conversion
+
 
 Linked List:
 1. Reverse Linked List - basic LL. Pointer arithmetic. 
