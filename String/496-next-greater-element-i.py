@@ -29,3 +29,7 @@ class Solution:
                 result[i] = mapp[num]
 
         return result
+
+
+#Unsucessful attempt: 
+
