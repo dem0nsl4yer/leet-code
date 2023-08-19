@@ -1,5 +1,3 @@
-# need to implement the remove function. 
-
 class MyHashSet:
 
     def __init__(self):
@@ -14,13 +12,16 @@ class MyHashSet:
             
     def remove(self, key: int) -> None:
         if self.contains(key):
+            if self.head.val == key:
+                self.head = self.head.next
+                return 
             temp = self.head
-            prev = temp
-            if key == temp.next.val:
-                temp.next = temp.next.next 
+            while temp.next:
+                if temp.next.val == key:
+                    temp.next = temp.next.next
+                    return 
+                temp = temp.next 
             
-
-
     def contains(self, key: int) -> bool:
         temp = self.head
         while temp:
