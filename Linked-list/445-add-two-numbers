@@ -24,3 +24,6 @@ class Solution:
             curr.next = ListNode(int(i))
             curr = curr.next 
         return dummy.next
+    
+
+# Proper solution for linked list flow and reverse practice. 
