@@ -16,3 +16,14 @@ class Solution:
                 temp = temp.next
             head = head.next
         return dummy.next
+    
+# Still does not works, need to think more. 
+class Solution:
+    def nextLargerNodes(self, head: Optional[ListNode]) -> List[int]:
+        stack = []
+        while(head and head.next):
+            if head.val < head.next.val:
+                stack.append(head.next.val)
+            head = head.next
+        stack.append(0)
+        return stack 
