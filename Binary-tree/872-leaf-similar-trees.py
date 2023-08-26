@@ -49,3 +49,34 @@ class Solution:
                 return False
         
         return True
+
+
+## CLEAN solution - modular DFS an compare. 
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def dfs(self,root,l):
+        if root==None:
+            return
+        if root.left==None and root.right==None:
+            l.append(root.val)
+            return
+        self.dfs(root.left,l)
+        self.dfs(root.right,l)
+        
+
+
+    def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
+        l1=[]
+        l2=[]
+        self.dfs(root1,l1)
+
+        self.dfs(root2,l2)
+        if l1==l2:
+            return True
+        return False
