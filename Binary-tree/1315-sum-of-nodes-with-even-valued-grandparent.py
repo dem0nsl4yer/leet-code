@@ -26,3 +26,25 @@ class Solution:
             return val
         
         return dfs(root)  # Return the accumulated val from the entire tree
+    
+
+## cleaner solution with single iteration 
+
+class Solution:
+    def sumEvenGrandparent(self, root: TreeNode) -> int:
+
+        def dfs(currentNode, parentValue, grandParentValue):
+            subResult = 0 
+
+            if grandParentValue % 2 == 0:
+                subResult += currentNode.val
+
+            if currentNode.left:
+                subResult += dfs(currentNode.left, currentNode.val, parentValue)
+
+            if currentNode.right:
+                subResult += dfs(currentNode.right, currentNode.val, parentValue)
+
+            return subResult
+        
+        return dfs(root,-1,-1)
