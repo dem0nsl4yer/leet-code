@@ -28,7 +28,7 @@ class Solution:
         return dfs(root)  # Return the accumulated val from the entire tree
     
 
-## cleaner solution with single iteration 
+## cleaner solution with single step traversal.  
 
 class Solution:
     def sumEvenGrandparent(self, root: TreeNode) -> int:
