@@ -31,7 +31,7 @@ class Solution:
         dfs(root, val, depth, current_depth=1)
         return root
     
-##  No dfs: 
+##  No dfs: - FASTER 
 
 # Definition for a binary tree node.
 class TreeNode:
